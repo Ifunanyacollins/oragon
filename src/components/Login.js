@@ -38,7 +38,7 @@ class Login extends React.Component{
 
                 user.uid ? <Redirect to="/view" />:
                 <section className="uk-flex uk-flex-center uk-height-1-1 my-border" uk-height-viewport="true"  >
-                 <div className="uk-height-meduim uk-width-1-2@l uk-width-1-1@s uk-margin" style={{background:'white'}}>
+                 <div className="uk-height-meduim uk-width-1-2@l uk-width-1-1@s uk-margin" style={{background:'#f9f7f7'}}>
                      <h1 className="uk-padding">Login</h1>
                      
     
