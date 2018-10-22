@@ -1,0 +1,17 @@
+.is-active {
+    font-weight: bold;
+    color:rgb(187, 116, 92);
+}
+
+.uk-navbar-container{
+    color:rgb(18, 37, 42) !important;
+    font-weight: 600;
+}
+
+.uk-sticky-below{
+    background-color:rgb(18, 37, 42) !important;
+}
+
+.my-card-margin{
+    margin-bottom:-10rem;
+}

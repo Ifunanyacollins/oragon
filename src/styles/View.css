@@ -1,0 +1,65 @@
+.my-margin-top{
+   
+    margin-top: 5rem;
+}
+
+.my-padding{
+
+    padding:2.5rem;
+    
+}
+
+.my-margin-left{
+    margin-left:1.4rem;
+}
+
+.my-padding-right{
+    padding:1.7rem;
+}
+
+.uk-grid {
+    margin-left: 1.9rem;
+    padding-right: 2rem;
+}
+
+.my-text{
+    font-weight: bold;
+    color:rgb(18, 37, 42) !important;
+    
+}
+
+@media only screen and (max-width:35em) { 
+
+    .uk-width-1-2{
+
+        width:90%;
+    } 
+
+    .my-margin-top {
+        margin-top: 25rem;
+    }
+
+    .my-small-screen-height{
+
+        height:30rem;
+    }
+
+    .uk-grid {
+        margin-left: 1.9rem;
+        padding-right: 2rem;
+    }
+
+    .my-margin-left{
+        margin-left:0px;
+    }
+
+    .my-padding-right{
+
+        padding:0px;
+        
+    }
+
+    .my-padding{
+        padding:1rem;
+    }
+}

@@ -1,0 +1,18 @@
+
+.my-button-box{
+        margin-left: 1.5rem;
+        padding-right: 0.9rem;
+        font-weight:bold;
+        font-size:4rem;
+        margin-top:1rem;
+}
+
+@media only screen and (max-width:35em) { 
+    .my-button-box{
+        margin-left: 0.5rem;
+        padding-right: 0.9rem;
+}
+.uk-button-large {
+    padding: 0 20px;
+}
+}
