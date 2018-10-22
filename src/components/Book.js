@@ -1,4 +1,5 @@
 import React , {Component} from 'react';
+import {NavLink} from 'react-router-dom'
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import 'uikit/dist/css/uikit.min.css';
@@ -134,9 +135,30 @@ class Book extends Component{
             <Consumer>
              {
                  ({save})=>(
-                     
-                    
+
+                    <React.Fragment>
+                     <header>
+                    <nav className="uk-navbar-container  uk-flex" uk-navabar="true" style={{background:'#12252A'}}>
+                    <div className="uk-navbar-left">
+                      <ul className="uk-navbar-nav">
+                      <li><NavLink to="/" activeClassName="is-active">
+                       <span style={{color:'#BB745C'}}>Oragon</span>
+                       </NavLink></li>
+                      </ul>
+                    </div>
+            
+            
+                    <div className="uk-navbar-right">
+            
+                    <ul className="uk-navbar-nav">
+                    <li><NavLink to="/View" activeClassName="is-active">Home</NavLink></li>
+                    </ul>
+            
+                    </div>
+                    </nav> 
+                    </header>     
             <section className="uk-flex uk-flex-center uk-height-1-1 my-border uk-padding" uk-height-viewport="true" >
+            
              <div className="uk-height-meduim uk-width-1-2@l uk-width-1-1@s uk-margin" style={{background:'#f9f7f7'}}>
                  <div className="uk-heading-hero uk-animation-slide-left uk-margin-small-left" >
                  <h1>Travel with <span style={{color:'#BB745C'}}>Oragon</span></h1>
@@ -290,8 +312,10 @@ class Book extends Component{
               </form>
              </div>
             </section>
+            </React.Fragment>
                  )
              }
+            
             </Consumer>
 
         )
