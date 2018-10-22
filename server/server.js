@@ -1,8 +1,9 @@
 const express = require('express')
 const app = express()
 const path = require('path')
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 
+console.log(process.env.apiKey)
 const publicPath = path.join(__dirname,'..','build')
 
 app.use(express.static(publicPath));
